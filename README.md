@@ -14,11 +14,11 @@ Endpoint para Gerar Senha:
 
 O endpoint GET /gerar-senha permite a geração de senhas personalizadas.
 Parâmetros de consulta:
-tamanho: Tamanho da senha (padrão: 12).
-numeros: Incluir números na senha (padrão: true).
-maiusculo: Incluir letras maiúsculas na senha (padrão: true).
-especiais: Incluir caracteres especiais na senha (padrão: true).
-Exemplo de requisição:
+tamanho: Tamanho da senha (padrão: 12).  
+numeros: Incluir números na senha (padrão: true).  
+maiusculo: Incluir letras maiúsculas na senha (padrão: true).  
+especiais: Incluir caracteres especiais na senha (padrão: true).  
+Exemplo de requisição: 
 
 
 curl http://localhost:3000/gerar-senha?tamanho=16&numeros=true&maiusculo=true&especiais=true
