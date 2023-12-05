@@ -21,14 +21,12 @@ especiais: Incluir caracteres especiais na senha (padrão: true).
 Exemplo de requisição: 
 
 
-curl http://localhost:3000/gerar-senha?tamanho=16&numeros=true&maiusculo=true&especiais=true
+http://localhost:3000/gerar-senha?tamanho=16&numeros=true&maiusculo=true&especiais=true
 Exemplo de resposta:
 
-json
-Copy code
 {
   "senha": "Aa1!bB2@cC3"
-}
+}  
 # Como Executar
 Para iniciar o servidor, utilize o seguinte comando:
 
