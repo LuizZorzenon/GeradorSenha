@@ -35,8 +35,6 @@ O servidor estará disponível em http://localhost:3000.
 
 #Observações
 Os arquivos estáticos na pasta 'public' podem ser acessados em http://localhost:3000/nome-do-arquivo.
-Licença
-Este projeto está licenciado sob a Licença MIT.
 
 Autor
 Luiz Zorzenon
